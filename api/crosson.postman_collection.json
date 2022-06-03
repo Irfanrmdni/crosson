@@ -1,0 +1,533 @@
+{
+	"info": {
+		"_postman_id": "eff91603-ce16-4828-a576-d78c328a6c7b",
+		"name": "crosson",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10553885"
+	},
+	"item": [
+		{
+			"name": "homepage products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/homepage/products",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"homepage",
+						"products"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "products",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/homepage/products",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"homepage",
+								"products"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"id\": 1,\n            \"imageUrl\": \"https://images.unsplash.com/photo-1600428610161-e98636332e98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2R1Y3QlMjBkZXNpZ25lcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60\",\n            \"title\": \"Product Design\",\n            \"description\": \"Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah ice cream.\",\n            \"url\": \"/products\"\n        },\n        {\n            \"id\": 2,\n            \"imageUrl\": \"https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGxhbm5pbmclMjBwcm9kdWN0aW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500\",\n            \"title\": \"Planing & Production\",\n            \"description\": \"Center we have developped many patents in filling and packaging technology.\",\n             \"url\": \"/products\"\n        },\n        {\n            \"id\": 3,\n            \"imageUrl\": \"https://images.unsplash.com/photo-1517373116369-9bdb8cdc9f62?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aW5zdGFsbGF0aW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500\",\n            \"title\": \"Installation & Comisioning\",\n            \"description\": \"Marshmallow pastry jelly beans chocolate bar cake pastry powder gummi bears.\",\n            \"url\": \"/products\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "homepage company",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/homepage/company",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"homepage",
+						"company"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "company",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/homepage/company",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"homepage",
+								"company"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\r\n    \"data\": [\r\n        {\r\n            \"id\": 1,\r\n            \"imageUrl\": \"https://images.unsplash.com/photo-1637580679264-d9b13ab94c57?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDIwfGFldTZyTC1qNmV3fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60\",\r\n            \"title\": \"Crosson Holding’s 58th ordinary general assembly convened\",\r\n            \"description\": \"Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah ice cream.\"\r\n        },\r\n         {\r\n            \"id\": 2,\r\n            \"imageUrl\": \"https://images.unsplash.com/photo-1653049828513-1cc11ab2c391?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDI3fGFldTZyTC1qNmV3fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60\",\r\n            \"title\": \"Crosson Holding’s new Board of Directors has been determined.\",\r\n            \"description\": \"Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah ice cream.\"\r\n        }\r\n    ]\r\n}"
+				}
+			]
+		},
+		{
+			"name": "products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/products",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "products",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/products",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"products"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\r\n    \"data\": [\r\n        {\r\n            \"id\": 1,\r\n            \"id_category\": \"001\",\r\n            \"name\": \"Filling & Packaging Machines\",            \r\n            \"url\": \"/products/products-detail/1\",            \r\n            \"imageUrl\": [\r\n                \"https://images.unsplash.com/photo-1515630771457-09367d0ae038?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1614447428943-52ec0bdbc7aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1619221727146-4b81e8de6109?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\"\r\n            ]\r\n        },\r\n        {\r\n            \"id\": 2,\r\n            \"id_category\": \"001\",\r\n            \"name\": \"Linear Brode Machines\",            \r\n            \"url\": \"/products/products-detail/2\",            \r\n            \"imageUrl\": [\r\n                \"https://images.unsplash.com/photo-1518314916381-77a37c2a49ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1567177172939-9b0ee9d116d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDN8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1567093322492-f124e4caa330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\"\r\n            ]\r\n        },\r\n        {\r\n            \"id\": 3,\r\n            \"id_category\": \"001\",\r\n            \"name\": \"Rotary Machines\",            \r\n            \"url\": \"/products/products-detail/3\",\r\n            \"gallery\": [\r\n                \"https://images.unsplash.com/photo-1615286926197-45c2cf28eafa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1514443031610-8c063c7a9822?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1526459181387-e472f440e31c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1574087631700-abf928509b80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1513710239666-c29e2c09dc32?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1528823872057-9c018a7a7553?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\"\r\n            ],            \r\n            \"imageUrl\": [\r\n                \"https://images.unsplash.com/photo-1558979158-3f28368739e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDh8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1473643068424-cd2485e1ae3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDl8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1572867371779-8e5df2fb8755?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTB8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\"\r\n            ]\r\n        },\r\n        {\r\n            \"id\": 4,\r\n            \"id_category\": \"001\",\r\n            \"name\": \"Bottle Warmup Machines\",            \r\n            \"url\": \"/products/products-detail/4\",            \r\n            \"imageUrl\": [\r\n                \"https://images.unsplash.com/photo-1598645131357-18f2cd164432?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTR8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1526290766257-c015850e4629?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTd8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1529442679261-57e6dd463263?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTV8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\"\r\n            ]\r\n        }\r\n    ]\r\n}"
+				}
+			]
+		},
+		{
+			"name": "products detail",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/products/products-detail/:id",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"products",
+						"products-detail",
+						":id"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2",
+							"disabled": true
+						}
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "products detail 1",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/products/products-detail/1",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"products",
+								"products-detail",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\r\n    \"data\": {\r\n            \"id\": 1,\r\n            \"id_category\": \"001\",\r\n            \"name\": \"Filling & Packaging Machines\",\r\n            \"overview\": \"Donut candy shortbread toffee dragée apple pie brownie. Muffin chocolate halvah bonbon gummies cake apple pie. Croissant dessert candy canes chocolate bar topping jujubes cupcake toffee dragée. Fruitcake danish tart gummies tootsie roll dragée cheesecake jujubes. Fruitcake powder marzipan dessert dessert oat cake candy. Sweet roll sweet roll gummi bears tootsie roll dragée. Candy canes brownie danish pudding jelly gummies.\",\r\n            \"technicalData\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,\",\r\n            \"application\": \"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,\",\r\n            \"url\": \"/products/products-detail/1\",\r\n            \"gallery\": [\r\n                \"https://images.unsplash.com/photo-1615286926197-45c2cf28eafa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1514443031610-8c063c7a9822?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1526459181387-e472f440e31c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1574087631700-abf928509b80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1513710239666-c29e2c09dc32?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1528823872057-9c018a7a7553?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\"\r\n            ],\r\n            \"utility\": [\r\n                \"Danish lemon drops sweet soufflé jelly-o wafer gingerbread muffin.\",\r\n                \"Marshmallow caramels chocolate jelly-o sweet roll jelly beans cake sweet.\",\r\n                \"Donut pastry apple pie ice cream dragée cheesecake.\"\r\n            ],\r\n            \"imageUrl\": [\r\n                \"https://images.unsplash.com/photo-1515630771457-09367d0ae038?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1614447428943-52ec0bdbc7aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1619221727146-4b81e8de6109?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\"\r\n            ]\r\n        }\r\n}"
+				},
+				{
+					"name": "products detail 2",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/products/products-detail/2",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"products",
+								"products-detail",
+								"2"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\r\n    \"data\": {\r\n            \"id\": 2,\r\n            \"id_category\": \"001\",\r\n            \"name\": \"Linear Brode Machines\",\r\n            \"overview\": \"Donut candy shortbread toffee dragée apple pie brownie. Muffin chocolate halvah bonbon gummies cake apple pie. Croissant dessert candy canes chocolate bar topping jujubes cupcake toffee dragée. Fruitcake danish tart gummies tootsie roll dragée cheesecake jujubes. Fruitcake powder marzipan dessert dessert oat cake candy. Sweet roll sweet roll gummi bears tootsie roll dragée. Candy canes brownie danish pudding jelly gummies.\",\r\n            \"technicalData\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,\",\r\n            \"application\": \"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,\",\r\n            \"url\": \"/products/products-detail/2\",\r\n            \"gallery\": [\r\n                \"https://images.unsplash.com/photo-1615286926197-45c2cf28eafa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1514443031610-8c063c7a9822?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1526459181387-e472f440e31c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1574087631700-abf928509b80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1513710239666-c29e2c09dc32?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1528823872057-9c018a7a7553?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\"\r\n            ],\r\n            \"utility\": [\r\n                \"Danish lemon drops sweet soufflé jelly-o wafer gingerbread muffin.\",\r\n                \"Marshmallow caramels chocolate jelly-o sweet roll jelly beans cake sweet.\",\r\n                \"Donut pastry apple pie ice cream dragée cheesecake.\"\r\n            ],\r\n            \"imageUrl\": [\r\n                \"https://images.unsplash.com/photo-1518314916381-77a37c2a49ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1567177172939-9b0ee9d116d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDN8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1567093322492-f124e4caa330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\"\r\n            ]\r\n        }\r\n}"
+				},
+				{
+					"name": "products detail 3",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/products/products-detail/3",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"products",
+								"products-detail",
+								"3"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\r\n    \"data\": {\r\n            \"id\": 3,\r\n            \"id_category\": \"001\",\r\n            \"name\": \"Rotary Machines\",\r\n            \"overview\": \"Donut candy shortbread toffee dragée apple pie brownie. Muffin chocolate halvah bonbon gummies cake apple pie. Croissant dessert candy canes chocolate bar topping jujubes cupcake toffee dragée. Fruitcake danish tart gummies tootsie roll dragée cheesecake jujubes. Fruitcake powder marzipan dessert dessert oat cake candy. Sweet roll sweet roll gummi bears tootsie roll dragée. Candy canes brownie danish pudding jelly gummies.\",\r\n            \"technicalData\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,\",\r\n            \"application\": \"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,\",\r\n            \"url\": \"/products/products-detail/3\",\r\n            \"gallery\": [\r\n                \"https://images.unsplash.com/photo-1615286926197-45c2cf28eafa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1514443031610-8c063c7a9822?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1526459181387-e472f440e31c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1574087631700-abf928509b80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1513710239666-c29e2c09dc32?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1528823872057-9c018a7a7553?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\"\r\n            ],\r\n            \"utility\": [\r\n                \"Danish lemon drops sweet soufflé jelly-o wafer gingerbread muffin.\",\r\n                \"Marshmallow caramels chocolate jelly-o sweet roll jelly beans cake sweet.\",\r\n                \"Donut pastry apple pie ice cream dragée cheesecake.\"\r\n            ],\r\n            \"imageUrl\": [\r\n                \"https://images.unsplash.com/photo-1615378809998-afc205e73bad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1529442679261-57e6dd463263?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTV8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1567922726141-7110b604dd98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjN8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\"\r\n            ]\r\n        }\r\n}"
+				},
+				{
+					"name": "products detail 4",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/products/products-detail/4",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"products",
+								"products-detail",
+								"4"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\r\n    \"data\": {\r\n            \"id\": 4,\r\n            \"id_category\": \"001\",\r\n            \"name\": \"Bottle Warmup Machines\",\r\n            \"overview\": \"Donut candy shortbread toffee dragée apple pie brownie. Muffin chocolate halvah bonbon gummies cake apple pie. Croissant dessert candy canes chocolate bar topping jujubes cupcake toffee dragée. Fruitcake danish tart gummies tootsie roll dragée cheesecake jujubes. Fruitcake powder marzipan dessert dessert oat cake candy. Sweet roll sweet roll gummi bears tootsie roll dragée. Candy canes brownie danish pudding jelly gummies.\",\r\n            \"technicalData\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,\",\r\n            \"application\": \"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,\",\r\n            \"url\": \"/products/products-detail/4\",\r\n            \"gallery\": [\r\n                \"https://images.unsplash.com/photo-1615286926197-45c2cf28eafa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1514443031610-8c063c7a9822?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1526459181387-e472f440e31c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1574087631700-abf928509b80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1513710239666-c29e2c09dc32?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1528823872057-9c018a7a7553?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\"\r\n            ],\r\n            \"utility\": [\r\n                \"Danish lemon drops sweet soufflé jelly-o wafer gingerbread muffin.\",\r\n                \"Marshmallow caramels chocolate jelly-o sweet roll jelly beans cake sweet.\",\r\n                \"Donut pastry apple pie ice cream dragée cheesecake.\"\r\n            ],\r\n            \"imageUrl\": [\r\n                \"https://images.unsplash.com/photo-1598645131357-18f2cd164432?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTR8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1526290766257-c015850e4629?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTd8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"https://images.unsplash.com/photo-1529442679261-57e6dd463263?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTV8fG1hY2hpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60\"\r\n            ]\r\n        }\r\n}"
+				}
+			]
+		},
+		{
+			"name": "news",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/news",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"news"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "news",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/news",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"news"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\r\n    \"data\":[\r\n        {\r\n            \"id\": 1,\r\n            \"title\": \"Crosson Holding’s 58th ordinary general assembly convened\",\r\n            \"description\": \"Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah ice cream.\",\r\n            \"imageUrl\": \"https://images.unsplash.com/photo-1524758870432-af57e54afa26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWVldGluZ3xlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n            \"url\": \"/news/news-detail/1\"\r\n        },\r\n        {\r\n            \"id\": 2,\r\n            \"title\": \"Crosson Holding’s 58th ordinary general assembly convened\",\r\n            \"description\": \"Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah ice cream.\",\r\n            \"imageUrl\": \"https://images.unsplash.com/photo-1603195827187-459ab02554a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fG1lZXRpbmd8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60\",\r\n            \"url\": \"/news/news-detail/2\"\r\n        },\r\n        {\r\n            \"id\": 3,\r\n            \"title\": \"Crosson Holding’s 58th ordinary general assembly convened\",\r\n            \"description\": \"Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah ice cream.\",\r\n            \"imageUrl\": \"https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWVldGluZ3xlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n            \"url\": \"/news/news-detail/3\"\r\n        },\r\n        {\r\n            \"id\": 4,\r\n            \"title\": \"Crosson Holding’s new Board of Directors has been determined.\",\r\n            \"description\": \"Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah ice cream.\",\r\n            \"imageUrl\": \"https://images.unsplash.com/photo-1579389083046-e3df9c2b3325?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bWVldGluZ3xlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n            \"url\": \"/news/news-detail/4\"\r\n        },\r\n        {\r\n            \"id\": 5,\r\n            \"title\": \"Crosson Holding’s new Board of Directors has been determined.\",\r\n            \"description\": \"Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah ice cream.\",\r\n            \"imageUrl\": \"https://images.unsplash.com/photo-1581887300522-654ef6e6386d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fG1lZXRpbmd8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60\",\r\n            \"url\": \"/news/news-detail/5\"\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"title\": \"Crosson Holding’s new Board of Directors has been determined.\",\r\n            \"description\": \"Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah ice cream.\",\r\n            \"imageUrl\": \"https://images.unsplash.com/photo-1581887300455-5eb259f6eac0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fG1lZXRpbmd8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60\",\r\n            \"url\": \"/news/news-detail/6\"\r\n        }\r\n    ]\r\n}"
+				}
+			]
+		},
+		{
+			"name": "news detail",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/news/news-detail/:id",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"news",
+						"news-detail",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "news detail 1",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/news/news-detail/1",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"news",
+								"news-detail",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\r\n    \"data\": {\r\n        \"id\": 1,\r\n        \"name\": \"Crosson Holding’s 58th ordinary general assembly convened\",\r\n        \"title\": \"At the roots of Crosson, there is 20 years of experience in food industry that is filled with research, increasing efficiency and producing solution for food, quality, automation and software.\",\r\n        \"description\": \"Donut candy shortbread toffee dragée apple pie brownie. Muffin chocolate halvah bonbon gummies cake apple pie. Croissant dessert candy canes chocolate bar topping jujubes cupcake toffee dragée. Fruitcake danish tart gummies tootsie roll dragée cheesecake jujubes. Fruitcake powder marzipan dessert dessert oat cake candy. Sweet roll sweet roll gummi bears tootsie roll dragée. Candy canes brownie danish pudding jelly gummies. Toffee jelly caramels macaroon bonbon dragée muffin halvah. Pudding icing gingerbread sugar plum powder marzipan. Cotton candy carrot cake pastry carrot cake jelly danish. Ice ceam muffin marshmallow sesame snaps pie cupcake tart. Lemon drops macaroon lemon drops chocolate cookie cupcake marshmallow donut. Cotton candy candy canes cake oat cake jelly. Muffin chocolate halvah bonbon gummies cake apple pie. Croissant dessert candy canes chocolate bar topping jujubes cupcake toffee dragée. Fruitcake danish tart gummies tootsie roll dragée cheesecake jujubes. Fruitcake powder marzipan dessert dessert oat cake candy. Sweet roll sweet roll gummi bears tootsie roll dragée. Candy canes brownie danish pudding jelly gummies. Pudding icing gingerbread sugar plum powder marzipan. Cotton candy carrot cake pastry carrot cake jelly danish. Ice cream muffin marshmallow sesame snaps pie cupcake tart. Lemon drops macaroon lemon drops chocolate cookie cupcake marshmallow donut. Cotton candy candy canes cake oat cake jelly.\",\r\n        \"imageUrl\": \"https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bWVldGluZ3xlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n        \"relatedNews\": [\r\n            {\r\n                \"id\": 2,\r\n                \"title\": \"Crosson Holding’s 58th ordinary general assembly convened\",\r\n                \"description\": \"Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah ice cream.\",\r\n                \"imageUrl\": \"https://images.unsplash.com/photo-1603195827187-459ab02554a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fG1lZXRpbmd8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60\",\r\n                \"url\": \"/news/news-detail/2\"\r\n            },\r\n            {\r\n                \"id\": 3,\r\n                \"title\": \"Crosson Holding’s 58th ordinary general assembly convened\",\r\n                \"description\": \"Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah ice cream.\",\r\n                \"imageUrl\": \"https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWVldGluZ3xlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"url\": \"/news/news-detail/3\"\r\n            }\r\n        ]\r\n\r\n    }\r\n}"
+				},
+				{
+					"name": "news detail 2",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/news/news-detail/2",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"news",
+								"news-detail",
+								"2"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\r\n    \"data\": {\r\n        \"id\": 2,\r\n        \"name\": \"Crosson Holding’s 58th ordinary general assembly convened\",\r\n        \"title\": \"At the roots of Crosson, there is 20 years of experience in food industry that is filled with research, increasing efficiency and producing solution for food, quality, automation and software.\",\r\n        \"description\": \"Donut candy shortbread toffee dragée apple pie brownie. Muffin chocolate halvah bonbon gummies cake apple pie. Croissant dessert candy canes chocolate bar topping jujubes cupcake toffee dragée. Fruitcake danish tart gummies tootsie roll dragée cheesecake jujubes. Fruitcake powder marzipan dessert dessert oat cake candy. Sweet roll sweet roll gummi bears tootsie roll dragée. Candy canes brownie danish pudding jelly gummies. Toffee jelly caramels macaroon bonbon dragée muffin halvah. Pudding icing gingerbread sugar plum powder marzipan. Cotton candy carrot cake pastry carrot cake jelly danish. Ice ceam muffin marshmallow sesame snaps pie cupcake tart. Lemon drops macaroon lemon drops chocolate cookie cupcake marshmallow donut. Cotton candy candy canes cake oat cake jelly. Muffin chocolate halvah bonbon gummies cake apple pie. Croissant dessert candy canes chocolate bar topping jujubes cupcake toffee dragée. Fruitcake danish tart gummies tootsie roll dragée cheesecake jujubes. Fruitcake powder marzipan dessert dessert oat cake candy. Sweet roll sweet roll gummi bears tootsie roll dragée. Candy canes brownie danish pudding jelly gummies. Pudding icing gingerbread sugar plum powder marzipan. Cotton candy carrot cake pastry carrot cake jelly danish. Ice cream muffin marshmallow sesame snaps pie cupcake tart. Lemon drops macaroon lemon drops chocolate cookie cupcake marshmallow donut. Cotton candy candy canes cake oat cake jelly.\",\r\n        \"imageUrl\": \"https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG1lZXRpbmd8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60\",\r\n        \"relatedNews\": [\r\n            {\r\n                \"id\": 3,\r\n                \"title\": \"Crosson Holding’s 58th ordinary general assembly convened\",\r\n                \"description\": \"Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah ice cream.\",\r\n                \"imageUrl\": \"https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWVldGluZ3xlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"url\": \"/news/news-detail/3\"\r\n            },\r\n            {\r\n                \"id\": 4,\r\n                \"title\": \"Crosson Holding’s 58th ordinary general assembly convened\",\r\n                \"description\": \"Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah ice cream.\",\r\n                \"imageUrl\": \"https://images.unsplash.com/photo-1579389083046-e3df9c2b3325?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bWVldGluZ3xlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"url\": \"/news/news-detail/4\"\r\n            }\r\n        ]\r\n\r\n    }\r\n}"
+				},
+				{
+					"name": "news detail 3",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/news/news-detail/3",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"news",
+								"news-detail",
+								"3"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\r\n    \"data\": {\r\n        \"id\": 3,\r\n        \"name\": \"Crosson Holding’s 58th ordinary general assembly convened\",\r\n        \"title\": \"At the roots of Crosson, there is 20 years of experience in food industry that is filled with research, increasing efficiency and producing solution for food, quality, automation and software.\",\r\n        \"description\": \"Donut candy shortbread toffee dragée apple pie brownie. Muffin chocolate halvah bonbon gummies cake apple pie. Croissant dessert candy canes chocolate bar topping jujubes cupcake toffee dragée. Fruitcake danish tart gummies tootsie roll dragée cheesecake jujubes. Fruitcake powder marzipan dessert dessert oat cake candy. Sweet roll sweet roll gummi bears tootsie roll dragée. Candy canes brownie danish pudding jelly gummies. Toffee jelly caramels macaroon bonbon dragée muffin halvah. Pudding icing gingerbread sugar plum powder marzipan. Cotton candy carrot cake pastry carrot cake jelly danish. Ice ceam muffin marshmallow sesame snaps pie cupcake tart. Lemon drops macaroon lemon drops chocolate cookie cupcake marshmallow donut. Cotton candy candy canes cake oat cake jelly. Muffin chocolate halvah bonbon gummies cake apple pie. Croissant dessert candy canes chocolate bar topping jujubes cupcake toffee dragée. Fruitcake danish tart gummies tootsie roll dragée cheesecake jujubes. Fruitcake powder marzipan dessert dessert oat cake candy. Sweet roll sweet roll gummi bears tootsie roll dragée. Candy canes brownie danish pudding jelly gummies. Pudding icing gingerbread sugar plum powder marzipan. Cotton candy carrot cake pastry carrot cake jelly danish. Ice cream muffin marshmallow sesame snaps pie cupcake tart. Lemon drops macaroon lemon drops chocolate cookie cupcake marshmallow donut. Cotton candy candy canes cake oat cake jelly.\",\r\n        \"imageUrl\": \"https://images.unsplash.com/photo-1573167507387-6b4b98cb7c13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1lZXRpbmd8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60\",\r\n        \"relatedNews\": [\r\n            {\r\n                \"id\": 4,\r\n                \"title\": \"Crosson Holding’s 58th ordinary general assembly convened\",\r\n                \"description\": \"Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah ice cream.\",\r\n                \"imageUrl\": \"https://images.unsplash.com/photo-1579389083046-e3df9c2b3325?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bWVldGluZ3xlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"url\": \"/news/news-detail/4\"\r\n            },\r\n            {\r\n                \"id\": 5,\r\n                \"title\": \"Crosson Holding’s 58th ordinary general assembly convened\",\r\n                \"description\": \"Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah ice cream.\",\r\n                \"imageUrl\": \"https://images.unsplash.com/photo-1581887300522-654ef6e6386d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fG1lZXRpbmd8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60\",\r\n                \"url\": \"/news/news-detail/5\"\r\n            }\r\n        ]\r\n\r\n    }\r\n}"
+				},
+				{
+					"name": "news detail 4",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/news/news-detail/4",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"news",
+								"news-detail",
+								"4"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\r\n    \"data\": {\r\n        \"id\": 4,\r\n        \"name\": \"Crosson Holding’s 58th ordinary general assembly convened\",\r\n        \"title\": \"At the roots of Crosson, there is 20 years of experience in food industry that is filled with research, increasing efficiency and producing solution for food, quality, automation and software.\",\r\n        \"description\": \"Donut candy shortbread toffee dragée apple pie brownie. Muffin chocolate halvah bonbon gummies cake apple pie. Croissant dessert candy canes chocolate bar topping jujubes cupcake toffee dragée. Fruitcake danish tart gummies tootsie roll dragée cheesecake jujubes. Fruitcake powder marzipan dessert dessert oat cake candy. Sweet roll sweet roll gummi bears tootsie roll dragée. Candy canes brownie danish pudding jelly gummies. Toffee jelly caramels macaroon bonbon dragée muffin halvah. Pudding icing gingerbread sugar plum powder marzipan. Cotton candy carrot cake pastry carrot cake jelly danish. Ice ceam muffin marshmallow sesame snaps pie cupcake tart. Lemon drops macaroon lemon drops chocolate cookie cupcake marshmallow donut. Cotton candy candy canes cake oat cake jelly. Muffin chocolate halvah bonbon gummies cake apple pie. Croissant dessert candy canes chocolate bar topping jujubes cupcake toffee dragée. Fruitcake danish tart gummies tootsie roll dragée cheesecake jujubes. Fruitcake powder marzipan dessert dessert oat cake candy. Sweet roll sweet roll gummi bears tootsie roll dragée. Candy canes brownie danish pudding jelly gummies. Pudding icing gingerbread sugar plum powder marzipan. Cotton candy carrot cake pastry carrot cake jelly danish. Ice cream muffin marshmallow sesame snaps pie cupcake tart. Lemon drops macaroon lemon drops chocolate cookie cupcake marshmallow donut. Cotton candy candy canes cake oat cake jelly.\",\r\n        \"imageUrl\": \"https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fG1lZXRpbmd8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60\",\r\n        \"relatedNews\": [\r\n            {\r\n                \"id\": 5,\r\n                \"title\": \"Crosson Holding’s 58th ordinary general assembly convened\",\r\n                \"description\": \"Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah ice cream.\",\r\n                \"imageUrl\": \"https://images.unsplash.com/photo-1581887300522-654ef6e6386d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fG1lZXRpbmd8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60\",\r\n                \"url\": \"/news/news-detail/5\"\r\n            },\r\n            {\r\n                \"id\": 6,\r\n                \"title\": \"Crosson Holding’s 58th ordinary general assembly convened\",\r\n                \"description\": \"Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah ice cream.\",\r\n                \"imageUrl\": \"https://images.unsplash.com/photo-1581887300455-5eb259f6eac0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fG1lZXRpbmd8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60\",\r\n                \"url\": \"/news/news-detail/6\"\r\n            }\r\n        ]\r\n\r\n    }\r\n}"
+				},
+				{
+					"name": "news detail 5",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/news/news-detail/5",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"news",
+								"news-detail",
+								"5"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\r\n    \"data\": {\r\n        \"id\": 5,\r\n        \"name\": \"Crosson Holding’s 58th ordinary general assembly convened\",\r\n        \"title\": \"At the roots of Crosson, there is 20 years of experience in food industry that is filled with research, increasing efficiency and producing solution for food, quality, automation and software.\",\r\n        \"description\": \"Donut candy shortbread toffee dragée apple pie brownie. Muffin chocolate halvah bonbon gummies cake apple pie. Croissant dessert candy canes chocolate bar topping jujubes cupcake toffee dragée. Fruitcake danish tart gummies tootsie roll dragée cheesecake jujubes. Fruitcake powder marzipan dessert dessert oat cake candy. Sweet roll sweet roll gummi bears tootsie roll dragée. Candy canes brownie danish pudding jelly gummies. Toffee jelly caramels macaroon bonbon dragée muffin halvah. Pudding icing gingerbread sugar plum powder marzipan. Cotton candy carrot cake pastry carrot cake jelly danish. Ice ceam muffin marshmallow sesame snaps pie cupcake tart. Lemon drops macaroon lemon drops chocolate cookie cupcake marshmallow donut. Cotton candy candy canes cake oat cake jelly. Muffin chocolate halvah bonbon gummies cake apple pie. Croissant dessert candy canes chocolate bar topping jujubes cupcake toffee dragée. Fruitcake danish tart gummies tootsie roll dragée cheesecake jujubes. Fruitcake powder marzipan dessert dessert oat cake candy. Sweet roll sweet roll gummi bears tootsie roll dragée. Candy canes brownie danish pudding jelly gummies. Pudding icing gingerbread sugar plum powder marzipan. Cotton candy carrot cake pastry carrot cake jelly danish. Ice cream muffin marshmallow sesame snaps pie cupcake tart. Lemon drops macaroon lemon drops chocolate cookie cupcake marshmallow donut. Cotton candy candy canes cake oat cake jelly.\",\r\n        \"imageUrl\": \"https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fG1lZXRpbmd8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60\",\r\n        \"relatedNews\": [\r\n            {\r\n                \"id\": 6,\r\n                \"title\": \"Crosson Holding’s 58th ordinary general assembly convened\",\r\n                \"description\": \"Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah ice cream.\",\r\n                \"imageUrl\": \"https://images.unsplash.com/photo-1581887300455-5eb259f6eac0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fG1lZXRpbmd8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60\",\r\n                \"url\": \"/news/news-detail/6\"\r\n            },\r\n            {\r\n                \"id\": 1,\r\n                \"title\": \"Crosson Holding’s 58th ordinary general assembly convened\",\r\n                \"description\": \"Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah ice cream.\",\r\n                \"imageUrl\": \"https://images.unsplash.com/photo-1524758870432-af57e54afa26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWVldGluZ3xlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"url\": \"/news/news-detail/1\"\r\n            }\r\n        ]\r\n\r\n    }\r\n}"
+				},
+				{
+					"name": "news detail 6",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/news/news-detail/6",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"news",
+								"news-detail",
+								"6"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\r\n    \"data\": {\r\n        \"id\": 6,\r\n        \"name\": \"Crosson Holding’s 58th ordinary general assembly convened\",\r\n        \"title\": \"At the roots of Crosson, there is 20 years of experience in food industry that is filled with research, increasing efficiency and producing solution for food, quality, automation and software.\",\r\n        \"description\": \"Donut candy shortbread toffee dragée apple pie brownie. Muffin chocolate halvah bonbon gummies cake apple pie. Croissant dessert candy canes chocolate bar topping jujubes cupcake toffee dragée. Fruitcake danish tart gummies tootsie roll dragée cheesecake jujubes. Fruitcake powder marzipan dessert dessert oat cake candy. Sweet roll sweet roll gummi bears tootsie roll dragée. Candy canes brownie danish pudding jelly gummies. Toffee jelly caramels macaroon bonbon dragée muffin halvah. Pudding icing gingerbread sugar plum powder marzipan. Cotton candy carrot cake pastry carrot cake jelly danish. Ice ceam muffin marshmallow sesame snaps pie cupcake tart. Lemon drops macaroon lemon drops chocolate cookie cupcake marshmallow donut. Cotton candy candy canes cake oat cake jelly. Muffin chocolate halvah bonbon gummies cake apple pie. Croissant dessert candy canes chocolate bar topping jujubes cupcake toffee dragée. Fruitcake danish tart gummies tootsie roll dragée cheesecake jujubes. Fruitcake powder marzipan dessert dessert oat cake candy. Sweet roll sweet roll gummi bears tootsie roll dragée. Candy canes brownie danish pudding jelly gummies. Pudding icing gingerbread sugar plum powder marzipan. Cotton candy carrot cake pastry carrot cake jelly danish. Ice cream muffin marshmallow sesame snaps pie cupcake tart. Lemon drops macaroon lemon drops chocolate cookie cupcake marshmallow donut. Cotton candy candy canes cake oat cake jelly.\",\r\n        \"imageUrl\": \"https://images.unsplash.com/photo-1431540015161-0bf868a2d407?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fG1lZXRpbmd8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60\",\r\n        \"relatedNews\": [\r\n            {\r\n                \"id\": 1,\r\n                \"title\": \"Crosson Holding’s 58th ordinary general assembly convened\",\r\n                \"description\": \"Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah ice cream.\",\r\n                \"imageUrl\": \"https://images.unsplash.com/photo-1524758870432-af57e54afa26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWVldGluZ3xlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60\",\r\n                \"url\": \"/news/news-detail/1\"\r\n            },\r\n            {\r\n                \"id\": 2,\r\n                \"title\": \"Crosson Holding’s 58th ordinary general assembly convened\",\r\n                \"description\": \"Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah ice cream.\",\r\n                \"imageUrl\": \"https://images.unsplash.com/photo-1603195827187-459ab02554a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fG1lZXRpbmd8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60\",\r\n                \"url\": \"/news/news-detail/2\"\r\n            }\r\n        ]\r\n\r\n    }\r\n}"
+				}
+			]
+		}
+	]
+}

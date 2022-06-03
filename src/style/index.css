@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ? background homepage hero banner background */
+.bg-image {
+    background-image: url('../../public/images/homepage/hero-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* ? background homepage what we do */
+.bg-whatwedo {
+    background-image: url('../../public/images/homepage/what-we-do-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* ? background homepage company news */
+.bg-company-news {
+    background-image: url('../../public/images/homepage/company-news-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* ? background footer */
+.bg-footer {
+    background-image: url('../../public/images/footer-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* ? background about */
+.bg-pages {
+    background-image: url('../../public/images/about/about-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
