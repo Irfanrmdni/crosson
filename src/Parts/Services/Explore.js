@@ -18,7 +18,7 @@ function Explore() {
                     <div className="mt-5">
                         <h5 className="text-xl">Company Work Managment Software</h5>
                         <p className="text-lg opacity-70 tracking-wide my-5 leading-snug">Center we have developped many patents in filling and packaging technology.</p>
-                        <Link to="/" className="text-lg tracking-wide capitalize">
+                        <Link to="/services" className="text-lg tracking-wide capitalize hover:underline">
                             read more
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 inline-block" viewBox="0 0 20 20" fill="currentColor">
                                 <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
@@ -32,7 +32,7 @@ function Explore() {
                     <div className="mt-5">
                         <h5 className="text-xl">Crosson Simple Storage Service (S3)</h5>
                         <p className="text-lg opacity-70 tracking-wide my-5 leading-snug">Marshmallow pastry jelly beans chocolate bar cake pastry powder gummi bears. </p>
-                        <Link to="/" className="text-lg tracking-wide capitalize">
+                        <Link to="/services" className="text-lg tracking-wide capitalize hover:underline">
                             read more
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 inline-block" viewBox="0 0 20 20" fill="currentColor">
                                 <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
@@ -46,7 +46,7 @@ function Explore() {
                     <div className="mt-5">
                         <h5 className="text-xl">Machine Access Salary Control Sowftare</h5>
                         <p className="text-lg opacity-70 tracking-wide my-5 leading-snug">Center we have developped many patents in filling and packaging technology.</p>
-                        <Link to="/" className="text-lg tracking-wide capitalize">
+                        <Link to="/services" className="text-lg tracking-wide capitalize hover:underline">
                             read more
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 inline-block" viewBox="0 0 20 20" fill="currentColor">
                                 <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
@@ -60,7 +60,7 @@ function Explore() {
                     <div className="mt-5">
                         <h5 className="text-xl">Scalable Storage in th Cloud Service</h5>
                         <p className="text-lg opacity-70 tracking-wide my-5 leading-snug">Marshmallow pastry jelly beans chocolate bar cake pastry powder gummi bears.</p>
-                        <Link to="/" className="text-lg tracking-wide capitalize">
+                        <Link to="/services" className="text-lg tracking-wide capitalize hover:underline">
                             read more
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 inline-block" viewBox="0 0 20 20" fill="currentColor">
                                 <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />

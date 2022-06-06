@@ -108,7 +108,7 @@ function Footer() {
                             <div className="ml-6">
                                 <h5 className="text-2xl">Career Opportunities</h5>
                                 <p className="text-base mt-2 mb-6 tracking-wide">Cake pudding lollipop pastry cupcake chocolate. Gummi bears halvah <span className="underline">sesame snaps.</span></p>
-                                <Link to="/" className="bg-yellow text-base tracking-wide capitalize rounded w-52 h-11 flex items-center justify-center whitespace-nowrap">
+                                <Link to="/" className="bg-yellow hover:bg-opacity-70 transition ease-in text-base tracking-wide capitalize rounded w-52 h-11 flex items-center justify-center whitespace-nowrap">
                                     Opening Positions
                                     <svg xmlns="http://www.w3.org/2000/svg" className="ml-5 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
@@ -122,7 +122,7 @@ function Footer() {
             </Container>
 
             <div className="w-full bg-gray-200 mx-auto px-28 py-2 flex flex-row items-center justify-between">
-                <span className="inline-block text-sm leading-9">Copyright by Erkan Giris  |  All rights reserverd</span>
+                <span className="inline-block text-sm leading-9">Copyright by irpan ramdani  |  All rights reserverd</span>
                 <span className="inline-block text-sm leading-9">Our Privacy and Personal Data Protection Policy  |   Terms and Conditions of Use</span>
             </div>
         </>

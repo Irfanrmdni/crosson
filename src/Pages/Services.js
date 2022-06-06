@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import BreadCrumb from '../Components/BreadCrumb';
 import Container from '../Components/Container';
 import Header from '../Components/Header';
+import ScrollToTop from '../Components/ScrollToTop';
 import Footer from '../Parts/Footer';
 import Explore from '../Parts/Services/Explore';
 import Partners from '../Parts/Services/Partners';
 
 function Services() {
+    ScrollToTop();
     const BreadCrumbList = [
         {
             id: 1,
@@ -19,6 +21,9 @@ function Services() {
             name: 'Services'
         }
     ]
+    useEffect(() => {
+        document.title = "Crosson | Services"
+    }, []);
 
     return (
         <>

@@ -3,6 +3,7 @@ import BreadCrumb from '../Components/BreadCrumb';
 import Button from '../Components/Button';
 import Container from '../Components/Container';
 import Header from '../Components/Header';
+import ScrollToTop from '../Components/ScrollToTop';
 import Footer from '../Parts/Footer';
 
 function Skeleton() {
@@ -20,6 +21,7 @@ function Skeleton() {
 }
 
 function News() {
+    ScrollToTop();
     const BreadCrumbList = [
         {
             id: 1,
@@ -36,6 +38,7 @@ function News() {
     const [loading, setLoading] = useState(false);
 
     useEffect(() => {
+        document.title = "Crosson | News"
         async function getApi() {
             const response = await fetch(`${process.env.REACT_APP_API_HOST}/api/news`, {
                 method: 'GET',
@@ -49,6 +52,7 @@ function News() {
         }
 
         getApi();
+
     }, []);
 
     return (

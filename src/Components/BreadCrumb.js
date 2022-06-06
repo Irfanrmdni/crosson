@@ -12,7 +12,7 @@ function BreadCrumb({ items, title }) {
                         const arias = index === item.length ? { "aria-label": "current-page" } : {};
 
                         return <li className="mr-4" key={item.id}>
-                            <Link to={item.url} {...arias} className="text-sm capitalize">
+                            <Link to={item.url} {...arias} className="text-sm capitalize hover:underline">
                                 {item.name}
                             </Link>
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 inline-block ml-3" viewBox="0 0 20 20" fill="currentColor">

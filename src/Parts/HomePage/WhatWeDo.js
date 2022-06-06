@@ -67,7 +67,7 @@ function WhatWeDo() {
                   <div className="">
                      <h1 className="text-3xl mb-4">Filling and Packaging Machines</h1>
                      <p className="text-lg tracking-wide opacity-70 inline">Liquorice lemon drops powder chocolate liquorice candy dessert gummi bears. Caramels marzipan donut jujubes sweet roll. Powder croissant toffee shortbread chocolate sweet pie.</p>
-                     <Link to="/" className="ml-1 text-lg tracking-wide text-blue font-semibold">Read more
+                     <Link to="/services" className="ml-1 text-lg tracking-wide text-blue font-semibold hover:underline">Read more
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                            <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                         </svg>

@@ -4,6 +4,7 @@ import Contact from './Pages/Contact';
 import HomePages from './Pages/HomePage';
 import News from './Pages/News';
 import NewsDetail from './Pages/NewsDetail';
+import NotFound from './Pages/NotFound';
 import Products from './Pages/Products';
 import ProductsDetail from './Pages/ProductsDetail';
 import Services from './Pages/Services';
@@ -21,6 +22,7 @@ function App() {
                <Route path="/products/products-detail/:id" element={<ProductsDetail />} />
                <Route exact path="/news" element={<News />} />
                <Route path="/news/news-detail/:id" element={<NewsDetail />} />
+               <Route path="*" element={<NotFound />} />
             </Routes>
          </BrowserRouter>
       </>

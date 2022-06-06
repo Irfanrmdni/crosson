@@ -51,7 +51,7 @@ function HowWeDo() {
                             <div className="mt-6">
                                 <h5 className="heading-4">{data.title}</h5>
                                 <p className="text-base tracking-wide opacity-70 mt-1 mb-7">{data.description}</p>
-                                <Link to={data.url} className="text-lg tracking-wide">
+                                <Link to={data.url} className="text-lg tracking-wide hover:underline">
                                     Read More
 
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import BreadCrumb from '../Components/BreadCrumb';
 import Container from '../Components/Container';
 import Header from '../Components/Header';
+import ScrollToTop from '../Components/ScrollToTop';
 import Footer from '../Parts/Footer';
 
 function Skeleton() {
@@ -15,6 +16,7 @@ function Skeleton() {
 }
 
 function Products() {
+   ScrollToTop();
    const BreadCrumbList = [
       {
          id: 1,
@@ -27,11 +29,11 @@ function Products() {
          url: "/products"
       },
    ];
-
    const [datas, setDatas] = useState([]);
    const [loading, setLoading] = useState(false);
 
    useEffect(() => {
+      document.title = "Crosson | Products"
       async function getApi() {
          const response = await fetch(`${process.env.REACT_APP_API_HOST}/api/products`, {
             method: 'GET',
@@ -69,7 +71,7 @@ function Products() {
             {loading === false ? (<Skeleton />) : (datas?.map((data) => {
                return <div className="bg-white shadow-md w-5/12" key={data.id}>
                   <img src={data.imageUrl[0]} alt={data.name} className="inline-block w-full" />
-                  <Link to={data.url} className="p-3 text-xl inline-block">{data.name}</Link>
+                  <Link to={data.url} className="p-3 text-lg inline-block hover:underline">{data.name}</Link>
                </div>
             }))}
          </div>

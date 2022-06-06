@@ -51,7 +51,7 @@ function CompanyNews() {
                             <div className="ml-7">
                                 <h5 className="text-xl">{data.title}</h5>
                                 <p className="text-base tracking-wide opacity-70 mt-4 mb-6">{data.description}</p>
-                                <Button href="/">Read More</Button>
+                                <Button href="/news">Read More</Button>
                             </div>
                         </div>
                     }))}

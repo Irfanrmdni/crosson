@@ -20,8 +20,8 @@ function WhoWeAre() {
                     </p>
 
                     <div className="flex flex-row items-center">
-                        <Button href="/">About us</Button>
-                        <Link to="/" className="ml-4 underline text-lg leading-9 tracking-wide">Quality Certificates</Link>
+                        <Button href="/about">About us</Button>
+                        <Link to="/" className="ml-4 underline text-lg leading-9 tracking-wide font-semibold hover:opacity-70 transition ease-in">Quality Certificates</Link>
                     </div>
                 </div>
 
